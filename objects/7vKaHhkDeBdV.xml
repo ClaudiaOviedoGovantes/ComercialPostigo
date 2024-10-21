@@ -8,7 +8,9 @@
       <trace target="ST2RaBVE5sRg" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Queremos proporcionar a Comercial Postigo un software que facilite las operaciones del día a día, reduciendo la cantidad de trabajo y mejorando la eficiencia. Dentro de las funcionalidades a implementar se encuentra la gestión automática de la contabilidad y el desarollo de una página web. Respectivamente, ayudará a la empresa a poder prever gastos y beneficios de una manera más exacta y permitirá a los clientes hacer pedidos online.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[El software que se planea implementar tiene como objetivo principal optimizar el flujo de trabajo de los distintos procesos internos de la empresa, como la gestión y el reabastecimiento del stock, y la contabilidad.
+
+Además, se busca digitalizar la imagen externa de la empresa mediante una página web que permitirá a los usuarios explorar productos y realizar pedidos en línea, ampliando así el alcance del negocio y mejorando la captación de clientes.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

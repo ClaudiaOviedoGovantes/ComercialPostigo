@@ -10,11 +10,11 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo actualmente no dispone de una página web con la que los clientes puedan hacer pedidos, y controlan la contabilidad con una aplicación que es poco intuitiva y no cumple con sus necesidades.
 
-Para solucionar estos aspectos, nuestro trabajo se centrará en:
+Además de ello, el almacén que tienen en su tienda donde guardan los distintos electrodomésticos, muebles de hogar, y otro tipo de productos no es muy grande, y llevan la gestión del stock a mano junto a una aplicación que consideran podría ser más intuitiva.
 
-1. Crear una página web: donde los clientes puedan pedir a los proveedores electrodomésticos.
+La relación con los proveedores actual es buena, disponen de varios dependiendo del tipo de productos que busquen: electrodomésitcos concretos, muebles, los recursos para la construcción de cocinas, armarios o vestidores a medida, etc.
 
-2. Desarrollar un programa para controlar la contabilidad, en lugar de realizarla con la aplicación de la que ya disponen.]]></markdownProperty>
+Por lo general, no tienen problemas con el reparto, pues suelen darse en la propia ciudad de Dos Hermanas. Gracias a este bajo flujo de pedidos, pueden hacer el montaje de la cocina, armario o vestidor, en caso de proceder, en la casa del cliente pudiendo dedicarle el tiempo necesario.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

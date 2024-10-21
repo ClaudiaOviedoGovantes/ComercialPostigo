@@ -8,11 +8,7 @@
       <trace target="bdZjLJeLr9zf" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo es un comercio local ubicado en la ciudad de Dos Hermanas, especializado en la venta de electrodomésticos, muebles y cocinas, armarios y vestidores a medida.
-
-El software que se planea implementar tiene como objetivo principal optimizar el flujo de trabajo de los distintos procesos internos de la empresa, como la gestión y el reabastecimiento del stock, y la contabilidad.
-
-Además, se busca digitalizar la imagen externa de la empresa mediante una página web que permitirá a los usuarios explorar productos y realizar pedidos en línea, ampliando así el alcance del negocio y mejorando la captación de clientes.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo es un comercio local ubicado en la ciudad de Dos Hermanas, especializado en la venta de electrodomésticos, muebles y cocinas, armarios y vestidores a medida.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
