@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="8WvVyoQFx4bN" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[IntroDom]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-04</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="54RadX7RbFR2" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo actualmente no dispone de una página web con la que los clientes puedan hacer pedidos, y controlan la contabilidad con una aplicación que es poco intuitiva y no cumple con sus necesidades.
+
+Para solucionar estos aspectos, nuestro trabajo se centrará en:
+
+1. Crear una página web: donde los clientes puedan pedir a los proveedores electrodomésticos.
+
+2. Desarrollar un programa para controlar la contabilidad, en lugar de realizarla con la aplicación de la que ya disponen.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6CqBKXQHDMpn" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[ObjetivosDeNegocio]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Debido a la falta de digitalización de la empresa y a su escasa presencia dentro de la red, en primer lugar el cliente quiere tener su propia página web,  donde los clientes puedan acceder para poder realizar diferentes acciones, en concreto, estas son: encargar directamente electrodomésticos o muebles, diseñar su cocina escogiendo entre diferentes tipos materiales para la encimera, puertas y herrajes o bien poder ver cocinas ya diseñadas por diferentes proveedores y, por último, ver la información de contacto del comercio.
+
+Por otra parte, el cliente necesita tener mejor digitalizado todos los procesos relacionados con la contabilidad ya que el software actual utilizado no cumple con todas las necesidades del cliente además de que es difícil de utilizar y poco intuitivo.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

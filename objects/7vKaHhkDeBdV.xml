@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7vKaHhkDeBdV" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[ObjetivosProyecto]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-08</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="ST2RaBVE5sRg" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Queremos proporcionar a Comercial Postigo un software que facilite las operaciones del día a día, reduciendo la cantidad de trabajo y mejorando la eficiencia. Dentro de las funcionalidades a implementar se encuentra la gestión automática de la contabilidad y el desarollo de una página web. Respectivamente, ayudará a la empresa a poder prever gastos y beneficios de una manera más exacta y permitirá a los clientes hacer pedidos online.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
