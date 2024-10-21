@@ -13,7 +13,7 @@ Alvic: permite pedir la cocina entera que se ha concretado con el cliente.
 
 ACB: hay que hacer el pedido por despiece.]]></markdownProperty>
     <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">medium</enumProperty>
-    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[BPMN PEDIR A PROVEEDORES.png]]></fileProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[BPMN PEDIR COCINA A PROVEEDORES.png]]></fileProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
