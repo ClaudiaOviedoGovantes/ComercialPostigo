@@ -19,7 +19,7 @@ Una vez la cocina queda montada por Comercial Postigo, colocarán la encimera, q
 
 El pedido se cierra y el pago se realiza. Se suele hacer en la propia casa del cliente.
 
-**Diagrama**: https://drive.google.com/file/d/17gdVkIkZle9g39GxoW8OhPOXgFXq5h1P/view?usp=sharing]]></markdownProperty>
+**Diagrama**: https://drive.google.com/file/d/1wvbQ8bt8EA9ATbg2RVGFGIhKmn35BHLU/view?usp=sharing]]></markdownProperty>
     <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>

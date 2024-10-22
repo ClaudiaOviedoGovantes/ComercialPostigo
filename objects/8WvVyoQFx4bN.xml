@@ -8,13 +8,13 @@
       <trace target="54RadX7RbFR2" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo actualmente no dispone de una página web con la que los clientes puedan hacer pedidos, y controlan la contabilidad con una aplicación que es poco intuitiva y no cumple con sus necesidades.
+    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo se especializa en la venta de electrodomésticos, muebles y cocinas a medida, ofreciendo una amplia gama de productos y servicios adaptados a las necesidades de sus clientes.
 
-Además de ello, el almacén que tienen en su tienda donde guardan los distintos electrodomésticos, muebles de hogar, y otro tipo de productos no es muy grande, y llevan la gestión del stock a mano junto a una aplicación que consideran podría ser más intuitiva.
+Pequeños electrodomésticos (PAE): Cuando un cliente solicita un pequeño electrodoméstico, la venta se realiza de manera convencional. El cliente puede recoger el producto directamente en la tienda. En caso de que no haya stock disponible, Comercial Postigo gestionará la compra del artículo a través de sus proveedores para satisfacer la demanda.
 
-La relación con los proveedores actual es buena, disponen de varios dependiendo del tipo de productos que busquen: electrodomésitcos concretos, muebles, los recursos para la construcción de cocinas, armarios o vestidores a medida, etc.
+Electrodomésticos de gama blanca: Antes de cualquier venta, se verifican las medidas del espacio donde se instalará el producto. Una vez confirmadas, se acuerda con el cliente la fecha y hora de la instalación. El pago se efectúa tras la entrega y correcta instalación del electrodoméstico.
 
-Por lo general, no tienen problemas con el reparto, pues suelen darse en la propia ciudad de Dos Hermanas. Gracias a este bajo flujo de pedidos, pueden hacer el montaje de la cocina, armario o vestidor, en caso de proceder, en la casa del cliente pudiendo dedicarle el tiempo necesario.]]></markdownProperty>
+Cocinas a medida: El proceso de venta de cocinas varía según las decisiones de diseño del cliente. Si el cliente elige un modelo completo de catálogo, Comercial Postigo solicitará la cocina a su proveedor y procederá con el montaje en la fecha previamente pactada. Si el cliente opta por una cocina por piezas, el mismo proceso se lleva a cabo, pero el montaje se realiza una vez que todas las piezas han llegado.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
