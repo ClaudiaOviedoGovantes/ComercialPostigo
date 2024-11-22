@@ -2,7 +2,7 @@
 <object id="7PMT6ZDh6MFV" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Linea de factura]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Cada una contendrá el precio y la cantidad de un material específico]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Cada una contendrá el precio y la cantidad de un determinado producto.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
