@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="e8xNGqAquHvN" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción Interfaz Usuario Web]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-11-21</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Según se accede a la página Web de Comercial Postigo, se podrán observar diversos apartados en la cabecera de la Web. **Inicio**, **Productos**, **Ofertas**, **Mi Perfil** o **Carrito**.
+
+En la sección de **Productos**, se podrá observar una lista de opciones: **Muebles**, **Electrodomésticos**, **Cocina a medida** o **Armario a medida**.
+
+Al seleccionar alguna de las dos primeras opciones, se podrá ver que estas se dividen en más subgrupos. Las dos segundas opciones proporcionan la personalización de una cocina o armario a medida, según se proceda.
+
+En caso de acceder a **Muebles** o **Electrodomésticos**, se mostrarán las diversas opciones de la selección correspondiente, pudiéndose elegir la que más se desee, con una breve descripción del mismo, y con la opción de añadirse al carrito.
+
+En el caso de acceder a **Cocina a Medida**, se seleccionará el material deseado en las encimeras, cuerpos y frentes de muebles, o los tiradores para la descarga de la cocina deseada.
+
+En el caso de acceder a **Armario a Medida**, se mostrará una serie de opciones, eligiéndose la que el cliente vea conveniente, con el material que desee, y se guardará la opción que se seleccione finalmente.
+
+En la sección de **Ofertas**, se mostrarán las distintas ofertas activas en la tienda, pudiéndo el cliente elegir la que quiera para añadirla al carrito.
+
+En la sección de **Mi Perfil**, el usuario podrá ver su perfil personal y modificar algún campo que crea conveniente.
+
+Finalmente, en la sección **Carrito**, se podrán observar los distintos productos que se hayan seleccionado para su posterior pago.
+
+
+
+]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
