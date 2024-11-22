@@ -20,12 +20,12 @@ expanded_objects:
   3V9VCWNACnar: true
   3VaWimgEHgb6: false
   3XrqZsdqDMZZ: true
-  3avMeuEfU9zr: false
+  3avMeuEfU9zr: true
   3bbdw88Srgtg: false
   3dTdfAjxJFR2: false
   3iCE9usWyUrU: false
   3q4UsckBMdvr: true
-  3s4nJupKn9eG: false
+  3s4nJupKn9eG: true
   3tGANbmZtmSe: true
   3wwv4E4zPHug: false
   3yGBgTdFe6ww: false
@@ -194,6 +194,5 @@ opened_views:
 - default
 selected_document: ers
 selected_objects:
-  das: null
   ers: 6MsijkFvekYf
 selected_view: default
