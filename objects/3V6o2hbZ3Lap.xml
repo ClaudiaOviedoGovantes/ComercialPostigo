@@ -9,8 +9,12 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="description" category="detail"><![CDATA[
 Requisitos generales frente a requisitos de información]]></markdownProperty>
-    <classListProperty name="row-classes" category="detail"/>
-    <classListProperty name="col-classes" category="detail"/>
+    <classListProperty name="row-classes" category="detail">
+      <class><![CDATA[information-requirement]]></class>
+    </classListProperty>
+    <classListProperty name="col-classes" category="detail">
+      <class><![CDATA[general-requirement]]></class>
+    </classListProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
