@@ -15,7 +15,7 @@
 
 Para ambos casos, el pago se hace una vez el cliente tiene su electrodoméstico.]]></markdownProperty>
     <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
-    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[BPMN PEDIR ELECTRODOMÉSTICO CORREGIDO.png]]></fileProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[pedir-electrodomestico.svg]]></fileProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">90</integerProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>

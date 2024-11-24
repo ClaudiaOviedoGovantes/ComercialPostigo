@@ -8,7 +8,7 @@
       <trace target="54RadX7RbFR2" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo se especializa en la venta de electrodomésticos, muebles y cocinas a medida, ofreciendo una amplia gama de productos y servicios adaptados a las necesidades de sus clientes.
+    <markdownProperty name="text" category="detail"><![CDATA[Comercial Postigo se especializa en la venta de electrodomésticos, muebles, armarios, vestidores y cocinas a medida, ofreciendo una amplia gama de productos y servicios adaptados a las necesidades de sus clientes.
 
 Pequeños electrodomésticos (PAE): Cuando un cliente solicita un pequeño electrodoméstico, la venta se realiza de manera convencional. El cliente puede recoger el producto directamente en la tienda. En caso de que no haya stock disponible, Comercial Postigo gestionará la compra del artículo a través de sus proveedores para satisfacer la demanda.
 
