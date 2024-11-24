@@ -33,7 +33,7 @@ expanded_objects:
   3XrqZsdqDMZZ: true
   3XyxJbhbr7Px: false
   3a4DX9b2SakS: false
-  3avMeuEfU9zr: false
+  3avMeuEfU9zr: true
   3bbdw88Srgtg: false
   3bvcLhPQbKng: false
   3dARTFYdNMt7: false
@@ -46,8 +46,6 @@ expanded_objects:
   3o9i7yshHZxV: false
   3q4UsckBMdvr: true
   3rMTtz593EKC: false
-  3rPpczwaBfga: false
-  3s4nJupKn9eG: true
   3s4nJupKn9eG: false
   3tGANbmZtmSe: true
   3wXNSi27sL2L: false
@@ -364,8 +362,6 @@ opened_views:
 - default
 selected_document: ers
 selected_objects:
-  das: 65GzinMnoW3X
-  ers: 3M9hFWtP3JfJ
   das: 7w5CD5vpgj9E
-  ers: 5r7MRKbYCSip
+  ers: 3avMeuEfU9zr
 selected_view: default
