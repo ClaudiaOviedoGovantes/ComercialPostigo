@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="4mHfEd7SiW73" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Referencia]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Numero de pedido]]></stringProperty>
     <markdownProperty name="description" category="general"><![CDATA[Número que permita identificar un pedido]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
