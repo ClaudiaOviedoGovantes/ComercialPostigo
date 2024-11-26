@@ -78,7 +78,7 @@ expanded_objects:
   4LpnYVRZqaGT: true
   4MAAFUuNBvdR: true
   4MxUx8BRHiTn: true
-  4NNJVrLqj7GC: true
+  4NNJVrLqj7GC: false
   4NQib8FDPNKP: true
   4Nhn6yYEzEMP: true
   4PgE8QTYZG5o: true
@@ -110,7 +110,7 @@ expanded_objects:
   4t43ZoAUVqSW: true
   4tM5UQBZuoy4: true
   4tumv4gVjrcm: true
-  4x3rPxn2uobD: true
+  4x3rPxn2uobD: false
   4ynmxtkHBA9i: true
   523Z9Mt64YFD: true
   52zesbvwxSmH: true
@@ -362,5 +362,5 @@ opened_views:
 - default
 selected_document: ers
 selected_objects:
-  ers: 3KtWeUDViv2b
+  ers: 6x8Zjksx87v2
 selected_view: default
