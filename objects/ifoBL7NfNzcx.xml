@@ -2,12 +2,12 @@
 <object id="ifoBL7NfNzcx" classes="business-requirement weakness" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[WEAK-]]></prefix><number>004</number><suffix><![CDATA[]]></suffix></codeProperty>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[No aprovechar datos analíticos]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Dificultad para competir]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-10-13</dateProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[No existe un entorno que permita recopilar datos sobre el comportamiento de los visitantes, lo que puede ayudarte a mejorar la oferta y estrategias.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[La falta de presencia digital limita su capacidad de competir con empresas que sí tienen presencia web.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
