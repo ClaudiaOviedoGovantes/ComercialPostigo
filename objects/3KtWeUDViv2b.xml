@@ -12,18 +12,7 @@
     <enumProperty name="priority" category="priority" tooltip="priority" choices="tbd high medium low">high</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
-      <trace target="4pEe3iDFEmgG" traceType=":Proteus-dependency"/>
-      <trace target="4Ra7EwgTiLuC" traceType=":Proteus-dependency"/>
-      <trace target="4t3hhRBZdrNW" traceType=":Proteus-dependency"/>
-      <trace target="57bA5Cen2Mir" traceType=":Proteus-dependency"/>
-      <trace target="SVQPHe5ExdSH" traceType=":Proteus-dependency"/>
-      <trace target="6rT6nehdQhEA" traceType=":Proteus-dependency"/>
-      <trace target="4U5ZSRRsSSEp" traceType=":Proteus-dependency"/>
-      <trace target="7zVPUdnexWmo" traceType=":Proteus-dependency"/>
-      <trace target="3bvcLhPQbKng" traceType=":Proteus-dependency"/>
-      <trace target="4tM5UQBZuoy4" traceType=":Proteus-dependency"/>
-    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>

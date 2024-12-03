@@ -2,22 +2,27 @@
 <object id="4F3Phbe7WExZ" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>001</number><suffix><![CDATA[]]></suffix></codeProperty>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Registrarse en la Web]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Registrarse en la Web.]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-11-23</dateProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[El sistema se comportará como se describe en el siguiente caso de uso cuando _un cliente quiera hacer un pedido a C.P. Para ello, se dará de alta en la Página Web y quedará almacenado._]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El sistema se comportará como se describe en el siguiente caso de uso cuando _un cliente quiera hacer un pedido a C.P. Para ello, se dará de alta en la Página Web y quedará registrado como un nuevo cliente._]]></markdownProperty>
     <markdownProperty name="precondition" category="pre-post"><![CDATA[El cliente quiere hacer un pedido en C.P]]></markdownProperty>
-    <markdownProperty name="postcondition" category="pre-post"><![CDATA[Tiene su perfil personal creado en la web]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[Tiene su perfil personal creado en la web.]]></markdownProperty>
     <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <enumProperty name="priority" category="priority" tooltip="priority" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
-      <trace target="8GfJ2PGw7hts" traceType=":Proteus-dependency"/>
+      <trace target="6usYBJp67ivh" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="6pZp9ZDataSS"/>
+    <child id="5gEivTeJYNkj"/>
+    <child id="548cz9bd4XEi"/>
+    <child id="5kqHnZxgdHXd"/>
+  </children>
 </object>
