@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="sid-38422fae-e03e-43a3-bef4-bd33b32041b2" targetNamespace="http://bpmn.io/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="17.11.1">
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="sid-38422fae-e03e-43a3-bef4-bd33b32041b2" targetNamespace="http://bpmn.io/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.1.1">
   <collaboration id="Collaboration_1wh41dc">
     <participant id="Participant_0ptx5qd" name="COMERCAIL POSTIGO" processRef="Process_1" />
     <participant id="Participant_16deuda" name="CLIENTE" processRef="Process_15i3k7t" />
@@ -101,7 +101,7 @@
       <incoming>Flow_1vop3yn</incoming>
       <outgoing>Flow_0nserm5</outgoing>
     </task>
-    <task id="Activity_1alxwyq" name="Ajustamos la distribución el plano y el presupuesto">
+    <task id="Activity_1alxwyq" name="Ajustar la distribución, el plano y el presupuesto">
       <incoming>Flow_0nserm5</incoming>
       <outgoing>Flow_11zbrxx</outgoing>
       <dataOutputAssociation id="DataOutputAssociation_043e8lp">
@@ -153,10 +153,6 @@
       <incoming>Flow_1w7of6y</incoming>
       <outgoing>Flow_1d2s0cf</outgoing>
     </task>
-    <task id="Activity_1mz241p" name="Registrar pago final">
-      <incoming>Flow_0bvvpfh</incoming>
-      <outgoing>Flow_0j1dtuy</outgoing>
-    </task>
     <task id="Activity_0k5yrbj" name="Cerrar pedido">
       <incoming>Flow_1fv02j8</incoming>
       <incoming>Flow_0j1dtuy</incoming>
@@ -194,6 +190,10 @@
     <sequenceFlow id="Flow_0j1dtuy" sourceRef="Activity_1mz241p" targetRef="Activity_0k5yrbj" />
     <sequenceFlow id="Flow_1fv02j8" sourceRef="Event_19rfnkx" targetRef="Activity_0k5yrbj" />
     <sequenceFlow id="Flow_0rvqa1k" sourceRef="Activity_0k5yrbj" targetRef="Event_1k0xakd" />
+    <task id="Activity_1mz241p" name="Registrar pago final">
+      <incoming>Flow_0bvvpfh</incoming>
+      <outgoing>Flow_0j1dtuy</outgoing>
+    </task>
   </process>
   <process id="Process_15i3k7t">
     <startEvent id="Event_1r3vhwy">
@@ -418,10 +418,6 @@
         <omgdc:Bounds x="3200" y="870" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1mz241p_di" bpmnElement="Activity_1mz241p">
-        <omgdc:Bounds x="3440" y="1170" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0k5yrbj_di" bpmnElement="Activity_0k5yrbj">
         <omgdc:Bounds x="3490" y="870" width="100" height="80" />
         <bpmndi:BPMNLabel />
@@ -431,6 +427,10 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1k0xakd_di" bpmnElement="Event_1k0xakd">
         <omgdc:Bounds x="3672" y="892" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1mz241p_di" bpmnElement="Activity_1mz241p">
+        <omgdc:Bounds x="3490" y="1170" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0h21x7r_di" bpmnElement="SequenceFlow_0h21x7r">
         <omgdi:waypoint x="266" y="870" />
@@ -492,7 +492,7 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0bvvpfh_di" bpmnElement="Flow_0bvvpfh">
         <omgdi:waypoint x="2060" y="1210" />
-        <omgdi:waypoint x="3440" y="1210" />
+        <omgdi:waypoint x="3490" y="1210" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0iplypn_di" bpmnElement="Flow_0iplypn">
         <omgdi:waypoint x="2440" y="910" />
@@ -519,9 +519,7 @@
         <omgdi:waypoint x="3372" y="910" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0j1dtuy_di" bpmnElement="Flow_0j1dtuy">
-        <omgdi:waypoint x="3490" y="1170" />
-        <omgdi:waypoint x="3490" y="1060" />
-        <omgdi:waypoint x="3540" y="1060" />
+        <omgdi:waypoint x="3540" y="1170" />
         <omgdi:waypoint x="3540" y="950" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1fv02j8_di" bpmnElement="Flow_1fv02j8">
