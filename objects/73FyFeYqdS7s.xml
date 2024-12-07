@@ -9,7 +9,7 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="description" category="detail"><![CDATA[El sistema se comportará como se describe en el siguiente caso de uso cuando _un trabajador quiera registrar a un nuevo cliente que no estuviera previamente en el sistema. La aplicación lo registrará y almacenará debidamente._]]></markdownProperty>
     <markdownProperty name="precondition" category="pre-post"><![CDATA[El nuevo cliente ha hecho un pedido por primera vez.]]></markdownProperty>
-    <markdownProperty name="postcondition" category="pre-post"><![CDATA[El cliente se mantiene almacenado en el sistema desde ese momento.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[El cliente se almacena en el sistema.]]></markdownProperty>
     <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <enumProperty name="priority" category="priority" tooltip="priority" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
@@ -19,5 +19,10 @@
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="okTRQLABW84j"/>
+    <child id="5z57fJkuNdh7"/>
+    <child id="8NfMg3cJwQCD"/>
+    <child id="33uPZmGAwb4L"/>
+  </children>
 </object>

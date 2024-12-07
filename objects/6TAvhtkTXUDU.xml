@@ -8,8 +8,8 @@
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="description" category="detail"><![CDATA[El sistema se comportará como se describe en el siguiente caso de uso cuando _un trabajador quiere quitar un producto del almacén que ya no se encuentra en la tienda. La aplicación efectuará la eliminación de la lista para evitar malentendidos._]]></markdownProperty>
-    <markdownProperty name="precondition" category="pre-post"><![CDATA[El producto no está en venta en la tienda.]]></markdownProperty>
-    <markdownProperty name="postcondition" category="pre-post"><![CDATA[Se mantiene actualizada la información en tienda y en la aplicación.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[El stock del sistema se encuentra desactualizado respecto al de tienda.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[Se tiene constancia de la eliminación del producto en el sistema.]]></markdownProperty>
     <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <enumProperty name="priority" category="priority" tooltip="priority" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
@@ -19,5 +19,8 @@
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="6yTa58hCUWLk"/>
+    <child id="5mai3KBNUoqx"/>
+  </children>
 </object>
