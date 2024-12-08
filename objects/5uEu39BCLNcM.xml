@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5uEu39BCLNcM" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción Interfaz de Servicios]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-12-08</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El diagrama presentado ilustra la estructura de un sistema basado en interfaces, diseñado para gestionar diferentes aspectos de un negocio. Este sistema organiza las funcionalidades en servicios separados, cada uno encargado de una responsabilidad específica, como la gestión de clientes, pedidos, facturas, trabajadores, proveedores y stock. Cada servicio está compuesto por métodos que representan las acciones clave que se pueden realizar dentro del sistema, como registrar, editar, eliminar o buscar información relacionada con las entidades que administra. Este enfoque modular promueve la reutilización de código y facilita el mantenimiento y la escalabilidad del sistema. A continuación, se detalla el propósito de cada servicio y la funcionalidad que ofrecen sus métodos.
+
+**ServicioClientes**
+
+**registrarCliente():** Agrega un nuevo cliente al sistema. 
+
+**eliminarCliente(Id idCliente):** Elimina un cliente específico identificado por su ID. 
+
+**editarCliente(Id idCliente):** Modifica los datos de un cliente en el sistema.
+
+**buscarCliente(Id idCliente):** Busca información de un cliente por su ID.	
+	
+
+**buscarTodosProductosCarrito():** Recupera todos los productos que el cliente tiene en su carrito.
+
+**pagarPedido():** Cambia el atributo estaPagado de Pedido 
+
+**guardarCocina():** Guarda información relacionada con la cocina personalizada del cliente. 
+
+**guardarArmario():** Guarda información de un armario personalizado del cliente. (editado)
+
+**ServicioPedidos**
+registrarPedido(): Crea un nuevo pedido. 
+eliminarPedido(Integer idPedido): Elimina un pedido específico usando su ID. 
+editarPedido(Integer idPedido): Modifica los detalles de un pedido existente. 
+buscarTodosPedidos(): Recupera todos los pedidos registrados en el sistema. 
+filtrarPedidos(): Permite filtrar los pedidos según ciertos criterios. buscarPedidosPorCliente(Integer idCliente): Encuentra los pedidos asociados a un cliente específico. editarProductoDePedido(Integer idPedido): Modifica los productos dentro de un pedido. eliminarProductoDePedido(Integer idPedido): Elimina un producto de un pedido existente. añadirProductoAlCarrito(Producto idProducto): Agrega un producto al carrito de un cliente. eliminarProductoDelCarrito(Producto idProducto): Elimina un producto del carrito de un cliente.
+
+**ServicioFacturas** generarFacturaDePedido(Integer idPedido): Crea una factura para un pedido específico. buscarTodasFacturas(): Recupera todas las facturas registradas en el sistema. 
+registrarFacturas(): Agrega una nueva factura al sistema. filtrarFacturas(): Filtra las facturas según ciertos criterios. editarFactura(Integer idFactura): Modifica los detalles de una factura existente.
+
+**ServicioTrabajadores** iniciarSesion(Integer idUsuario): Permite que un trabajador inicie sesión en el sistema. registrarUsuario(): Agrega un nuevo trabajador al sistema. (editado)
+
+**ServicioProveedores** registrarProveedor(): Crea un nuevo proveedor en el sistema. eliminarProveedor(Id Proveedor): Elimina un proveedor específico utilizando su ID. 
+editarProveedor(Id Proveedor): Modifica la información de un proveedor existente. buscarProveedor(Id Proveedor): Busca un proveedor por su ID. buscarProveedor(String nombreProveedor): Encuentra un proveedor utilizando su nombre. buscarTodosProveedores(): Recupera todos los proveedores registrados.
+
+**ServicioStock** 
+crearProducto(): Agrega un nuevo producto al inventario. editarProducto(Id idProducto): Modifica los detalles de un producto existente. 
+eliminarProducto(Id idProducto): Elimina un producto del inventario utilizando su ID. buscarTodosProductos(): Recupera todos los productos disponibles. buscarProducto(Integer idProducto): Busca un producto por su ID. buscarProducto(String nombreProducto): Encuentra un producto utilizando su nombre. añadirMaterialCocina(): Agrega materiales relacionados con las cocinas personalizadas. editarMaterialCocina(Material idMaterial): Modifica materiales asociados a las cocinas. eliminarMaterialCocina(Material idMaterial): Elimina materiales relacionados con cocinas personalizadas. añadirMaterialArmario(): Agrega materiales relacionados con armarios personalizados. editarMaterialArmario(Material material): Modifica materiales asociados a los armarios. eliminarMaterialArmario(Material idMaterial): Elimina materiales de los armarios. (editado)
+nuevo
+]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
