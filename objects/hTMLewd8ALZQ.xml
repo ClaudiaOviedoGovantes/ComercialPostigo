@@ -8,6 +8,8 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="text" category="detail"><![CDATA[ Compatibilidad:
 Navegadores soportados: La página web debe ser compatible con los navegadores más utilizados (Chrome, Firefox, Edge, Safari) para garantizar una buena experiencia de usuario. El cliente lo solicita para facilidad de sus compradores y para su propia facilidad, pudiendo cargar la web de manera independiente al navegador.
+
+
 Dispositivos soportados: El cliente pide que la página web pueda cargar en dispositivos móviles como en escritorio, lo que requiere que la interfaz web sea responsive.
 
 ]]></markdownProperty>
