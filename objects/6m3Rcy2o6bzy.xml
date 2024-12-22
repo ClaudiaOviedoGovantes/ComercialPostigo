@@ -2,7 +2,7 @@
 <object id="6m3Rcy2o6bzy" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Referencia]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Número identificativo de la factura]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Número del pedido asociado a esta factura.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
