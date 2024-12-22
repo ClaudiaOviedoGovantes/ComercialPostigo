@@ -4,5 +4,31 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción de los diagramas de secuencia del sistema]]></stringProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="7tdeisTvVpsW"/>
+    <child id="6HW29ScoFvKz"/>
+    <child id="7Hz7AeRqnFN6"/>
+    <child id="82NH89g9G3WA"/>
+    <child id="4kqyg3gPuniS"/>
+    <child id="4e8HsJREsenF"/>
+    <child id="5vxgPqoanrum"/>
+    <child id="pbDbhwozUV34"/>
+    <child id="5B2TPibEJHPf"/>
+    <child id="6xvU7VZqpED2"/>
+    <child id="5zRF2wC2Nra8"/>
+    <child id="6eCNpXMzjFSy"/>
+    <child id="3G9xzcmDu2Xy"/>
+    <child id="7YKSUR8nR7Bo"/>
+    <child id="7kAnctsFALU5"/>
+    <child id="4MCVJWLmc9PJ"/>
+    <child id="7NL3A7CBdt4h"/>
+    <child id="5ccNgnuRhfHh"/>
+    <child id="76xNNYcFWyWf"/>
+    <child id="WdSL9oCJWT6i"/>
+    <child id="MTYtrKivLume"/>
+    <child id="755REFnVmDJz"/>
+    <child id="5bgH5iR4mccq"/>
+    <child id="3xNNymw7Vhfb"/>
+    <child id="5MjNZH2RVt5L"/>
+  </children>
 </object>
