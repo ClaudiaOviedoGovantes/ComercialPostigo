@@ -16,9 +16,9 @@ Además, se podrá seleccionar uno de los pedidos del trabajador para **Generar 
 
 En caso de acceder a la pantalla de **Crear Pedido**,  podrá crearse tanto de **Cliente** como de **Proveedor**, añadiendo los productos solicitados por el cliente, o los que necesitemos pedir al proveedor.
 
-En la sección **Almacén**, se verá qué se encuentra en Stock en tienda. Se tendrán las opciones de **Añadir Producto**, **Editar Producto** o **Eliminar Producto** de la lista.
+En la sección **Almacén**, se verá qué se encuentra en Stock en tienda. Se tendrán las opciones de **Añadir Producto**, **Editar Producto** o **Eliminar Producto** de la lista. Además, se aprecia un apartado **Materiales**, que contiene los materiales a aplicar sobre cada superficie permitida en una cocina o los diferentes armarios, junto a una pequeña descripción.
 
-En la sección **Facturas**, se verán todas las facturas, tanto de **Cliente** como de **Proveedor**. Al seleccionar una de estas, podrá verse toda la información correspondiente.
+En la sección **Facturas**, se verán todas las facturas, tanto de **Cliente** como de **Proveedor**. Al seleccionar una de estas, podrá verse toda la información correspondiente. También puede aplicarse un filtro a las facturas para facilitar la búsqueda de estas.
 
 En la sección **Análisis**, se verá información graficada del comercio. **Ganancias**, **Productos**, **Pedidos**, **Evolución**, entre otros. Podrá verse la información mensual, anual o total.
 
