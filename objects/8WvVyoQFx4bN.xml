@@ -12,9 +12,9 @@
 
 Pequeños electrodomésticos (PAE): Cuando un cliente solicita un pequeño electrodoméstico, la venta se realiza de manera convencional. El cliente puede recoger el producto directamente en la tienda. En caso de que no haya stock disponible, Comercial Postigo gestionará la compra del artículo a través de sus proveedores para satisfacer la demanda.
 
-Electrodomésticos de gama blanca: Antes de cualquier venta, se verifican las medidas del espacio donde se instalará el producto. Una vez confirmadas, se acuerda con el cliente la fecha y hora de la instalación. El pago se efectúa tras la entrega y correcta instalación del electrodoméstico.
+Electrodomésticos de gama blanca: Antes de cualquier venta, se verifican las medidas del espacio donde se instalará el producto. Una vez confirmadas, se acuerda con el cliente la fecha y hora de la instalación. El pago se efectúa tras la entrega y la correcta instalación del electrodoméstico.
 
-Cocinas a medida: El proceso de venta de cocinas varía según las decisiones de diseño del cliente. Si el cliente elige un modelo completo de catálogo, Comercial Postigo solicitará la cocina a su proveedor y procederá con el montaje en la fecha previamente pactada. Si el cliente opta por una cocina por piezas, el mismo proceso se lleva a cabo, pero el montaje se realiza una vez que todas las piezas han llegado.]]></markdownProperty>
+Cocinas a medida: El proceso de venta de cocinas varía según las decisiones de diseño del cliente. Si el cliente elige un modelo completo de catálogo, Comercial Postigo solicitará la cocina a su proveedor y procederá con el montaje en la fecha previamente pactada. Si el cliente opta por una cocina por piezas, el mismo proceso se lleva a cabo, pero el montaje se realiza una vez que todas las piezas han sido recibidas.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
